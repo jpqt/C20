@@ -1,21 +1,19 @@
-# Finanical Tech Finder. 
-You work at a startup that is building a new and disruptive platform called Fintech Finder. Fintech Finder is an application that its customers can use to find fintech professionals from among a list of candidates, hire them, and pay them. As Fintech Finder’s lead developer, you have been tasked with integrating the Ethereum blockchain network into the application in order to enable your customers to instantly pay the fintech professionals whom they hire with cryptocurrency.
+# Joint Savings
+A fintech startup company has recently hired you. This company is disrupting the finance industry with its own cross-border, Ethereum-compatible blockchain that connects financial institutions. Currently, the team is building smart contracts to automate many of the institutions’ financial processes and features, such as hosting joint savings accounts.
+
+To automate the creation of joint savings accounts, you’ll create a Solidity smart contract that accepts two user addresses. These addresses will be able to control a joint savings account. Your smart contract will use ether management functions to implement a financial institution’s requirements for providing the features of the joint savings account. These features will consist of the ability to deposit and withdraw funds from the account.
 
 ## Instructions:
 
-You’ll make the following updates to the provided Python file for this Challenge, which already contains the basic PyChain ledger structure that you created throughout the module:
+The completed Solidity JointSavings smart contract.
 
+A folder named Execution_Results that contains at least eight images. These images should confirm that the deposit and withdrawal transactions, which are designed to test the JointSavings functionality in the JavaScript VM, worked as expected.
 
-* Generate a new Ethereum account instance by using the mnemonic seed phrase provided by Ganache.
+* Create a Joint Savings Account Contract in Solidity
 
-* Fetch and display the account balance associated with your Ethereum account address.
+* Compile and Deploy Your Contract in the JavaScript VM
 
-* Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
-
-* Digitally sign a transaction that pays a Fintech Finder candidate, and send this transaction to the Ganache blockchain.
-
-* Review the transaction hash code associated with the validated blockchain transaction.
-
+* Interact with Your Deployed Smart Contract
 
 
 
@@ -24,7 +22,7 @@ You’ll make the following updates to the provided Python file for this Challen
 
 The project leverages python 3.7 with the following packages:
 
-* [streamlit](https://streamlit.io/) - Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps. So let's get started.
+* [Solidity](https://soliditylang.org/) - Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.
 
 * [Pandas](https://github.com/pandas-dev/pandas) - pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way towards this goal.
 
@@ -44,7 +42,7 @@ You need to run a local or remote Ethereum node to use this library.
 Clone GitHub Respoitories to yoour local machine
 
 ```sh
-   git clone https://github.com/jpqt/Challenge-18.git
+   git clone https://github.com/jpqt/c20.git
  ```
 
 Before running the application first install the following dependencies.
@@ -67,21 +65,22 @@ pip install bip44
 
 ---
 
-## Fintech Professional
-![Alt text](https://github.com/jpqt/c19/blob/main/Images/2.png)
+## Deploying Contracts
+![Alt text](https://github.com/jpqt/C20/blob/main/Execution_Results/202929551-4fabf476-c04c-49ac-921c-551274ba526c.png?raw=true)
 
 
-## Validated Transaction Hash
-![Alt text](https://github.com/jpqt/c19/blob/main/Images/1.png)
+![Alt text](https://github.com/jpqt/C20/blob/main/Execution_Results/202929558-abc114ed-40b1-4f02-98b3-06fefac894ee.png?raw=trueg)
 
-## Sample Account
-![Alt text](https://github.com/jpqt/c19/blob/main/Images/3.png)
 
-## Sample Transaction
-![Alt text](https://github.com/jpqt/c19/blob/main/Images/5.png)
+![Alt text](https://github.com/jpqt/C20/blob/main/Execution_Results/202929568-9d6647c4-8a4d-4043-ae43-21234ad430f0.png?raw=true)
 
-## Transaction Details
-![Alt text](https://github.com/jpqt/c19/blob/main/Images/4.png)
+
+![Alt text](https://github.com/jpqt/C20/blob/main/Execution_Results/202929574-76cd4e7e-1a93-4188-9a00-178ea8a52947.png?raw=true)
+
+
+![Alt text](https://github.com/jpqt/C20/blob/main/Execution_Results/Screen%20Shot%202022-11-21%20at%2010.47.56%20AM.png?raw=true)
+
+![Alt text](https://github.com/jpqt/C20/blob/main/Execution_Results/Screen%20Shot%202022-11-21%20at%2010.57.49%20AM.png?raw=true)
 
 ---
 
